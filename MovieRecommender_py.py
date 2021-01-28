@@ -11,6 +11,12 @@ Original file is located at
 print('unziping ...')
 !unzip -o -j moviedataset.zip
 
+# import requests
+# url = 'https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-ML0101EN-SkillsNetwork/labs/Module%205/data/moviedataset.zip'
+# requests.get(url)
+# Use appropriate method to load the dataset
+
+
 # Commented out IPython magic to ensure Python compatibility.
 #Dataframe manipulation library
 import pandas as pd
